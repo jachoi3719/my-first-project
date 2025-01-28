@@ -1,5 +1,5 @@
 steps:
-  # Docker Build (버전 태그 추가) test중 2
+  # Docker Build (버전 태그 추가) test중 3
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/myimage:v2', '.']
 
